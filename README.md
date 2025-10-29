@@ -8,16 +8,19 @@ This project demonstrates **Encapsulation**, one of the four pillars of Object-O
 ## 🧩 Java Files
 
 ### `Student.java`
+
 Defines a simple `Student` class with two private fields: `name` and `age`.  
 These fields are **encapsulated**, meaning they cannot be accessed directly from outside the class.  
 Instead, they can be accessed through public **getter** and **setter** methods.
 
 Key ideas:
+
 - Private fields: `private String name;` and `private int age;`
 - Public getters: `getName()` and `getAge()`
-- Public setters (not shown in screenshot but typically included) ensure data validation
+- Public setters ensure data validation
 
 ### `EncapsulationDemo.java`
+
 Contains the `main()` method that creates a `Student` object, sets its properties using setters, and prints the results.  
 This file demonstrates how to **safely interact** with encapsulated data.
 
@@ -35,7 +38,7 @@ This repository helps understand:
 
 1. How to define and access private attributes in Java and Python.
 
-# Difference Between Encapsulation in Python and Java
+## Difference Between Encapsulation in Python and Java
 
 Encapsulation means hiding data inside a class and controlling access through methods.  
 Both Python and Java support encapsulation, but they handle it differently.
